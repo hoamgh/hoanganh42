@@ -71,7 +71,6 @@ int main(){
     int count = 0;
     int ***b = findSubMatrix(a,4,4,2,2,count);
     output3DArray(b,count,2,2);
-    cout<<count;
     return 0;
     
 }
